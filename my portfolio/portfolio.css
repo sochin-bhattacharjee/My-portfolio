@@ -1,0 +1,84 @@
+.open-sans-font{
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-variation-settings:
+    "wdth" 100;
+}
+.h3design{
+    color: #181818;
+    font-size: 45px;
+    font-weight: 800;
+}
+a{
+    text-decoration: none;
+}
+.list-item{
+    color: #474747;
+    font-size: 20px;
+    font-weight: 400;
+}
+/* Background-image-bg */
+.background-img{
+    background-image: url("../portfolio-resources/images/developer.png"),url("../portfolio-resources/images/header_bg.png");
+    background-repeat: no-repeat;
+    background-position: left,bottom right;
+}
+/* flex */
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 266px;
+    margin-right: 265px;
+}
+.navigation-bar{
+    display: flex;
+    gap:45px ;
+    align-items: center;
+}
+.flex-content{
+    display: flex;
+    gap: 163px;
+    justify-content: space-between;
+    margin-left: 230px;
+}
+nav li{
+    list-style: none;
+}
+/* button */
+.hire{
+    background-color: #FD6E0A;
+    padding: 18px 35px 18px 36px;
+    border: none;
+    border-radius: 5px;
+    font-size: 20px;
+    font-weight:700 ;
+}
+.contact{
+    border: 3px solid #FD6E0A;
+    background-color: white;
+    padding: 18px 20px 17px 20px;
+    border-radius: 5px;
+    
+}
+.padding{
+    font-size: 20px;
+    font-weight: 700;
+    
+}
+.h4{
+    color: #474747;
+    font-size: 45px;
+    font-weight:600 ;
+}
+.h1{
+    color: #181818;
+    font-size: 85px;
+    font-weight: 700;
+}
+.bio{
+    color: #757575;
+    font-size: 18px;
+    font-weight: 400;
+}
