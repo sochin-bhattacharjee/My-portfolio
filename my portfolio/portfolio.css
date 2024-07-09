@@ -34,7 +34,7 @@ a{
     max-width: 1140px;
     margin:0 auto ;
     padding: 131px 156px 131px 157px;
-    margin-top:130px; ;
+    margin-top:130px;
 }
 .background-color{
     background-color: white;
@@ -45,8 +45,7 @@ nav{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin-left: 266px;
-    margin-right: 265px;
+    margin: 0 auto;
 }
 .navigation-bar{
     display: flex;
@@ -57,7 +56,7 @@ nav{
     display: flex;
     gap: 163px;
     justify-content: space-between;
-    margin-left: 230px;
+    margin:0 auto;
 }
 
 nav ul li{
@@ -137,7 +136,9 @@ nav ul li{
     display: flex;
     gap: 24px;
     align-items: center;
-    margin-left: 290px;
+    max-width: 1140px;
+    margin: 0 auto;
+    
     
 }
 .skill{
@@ -146,6 +147,8 @@ nav ul li{
     padding: 30px;
     box-shadow:0px 6px 50px 0px rgba(0, 0, 0, 0.06);
     border-radius: 5px;
+    margin: 0 auto;
+    max-width: 1140px;
     
 }
 .section-description{
@@ -155,7 +158,7 @@ nav ul li{
     font-weight: 400;
     line-height: 30px;
     width: 909px;
-    margin-left: 500px;
+    margin: 0 auto;
 }
 /* .text-center{
     width: 909px;
