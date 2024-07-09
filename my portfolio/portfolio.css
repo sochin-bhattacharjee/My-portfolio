@@ -137,9 +137,13 @@ nav ul li{
     gap: 24px;
     align-items: center;
     max-width: 1140px;
-    margin: 0 auto;
-    
-    
+    margin: 0 auto;  
+}
+.skills{
+    transition: 1s;
+}
+.skill:hover{
+    transform: scale(1.03);
 }
 .skill{
     width: 267px;
